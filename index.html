@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link href="./assets/Css/style.css" rel="stylesheet">
+      <title>Document</title>
+</head>
+
+
+<body>
+   <!--- HTML CONTENT -->
+   <!---- Question Elements: Container, H1, Buttons, H3 -->
+   <!---- Results: Input, Score, Submit, H3 -->
+
+   <div class="container" id="container">
+      <div class="box p-5 border mt-5 shadow text-center">
+
+         <div class='questions' id="question-box">
+
+            <span id="timer-countdown"></span>
+
+            <h1 id="question" class="text-secondary"></h1>
+            
+            <div class="answers d-flex flex-column w-25 m-auto p-3" id="answers">
+               <button class='answer btn btn-primary m-1' id="one"></button>
+               <button class='answer btn btn-success m-1' id="two"></button>
+               <button class='answer btn btn-info m-1' id="three"></button>
+               <button class='answer btn btn-danger m-1' id="four"></button>
+            </div>
+
+         </div>
+
+         <div id='question-result'></div>
+         <div class='test-result' id="test-result">
+            
+
+               <label>Enter your initials to get your test results:</label>
+               <input id="initials" name="intials" />
+               <input id='submit' type="submit" class='submit' />
+   
+            <div id="results-message">
+               <h3 id="final-results"></h3>
+               <a href="index.html">Clear</a>
+            </div>
+         </div>
+      </div>
+
+   </div>
+  <!--This is the javascript file-->
+   <script src="./assets/JavaScript/script.js"></script>
+
+</body>
+
+</html>
