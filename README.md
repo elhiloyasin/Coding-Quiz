@@ -8,12 +8,14 @@
 Html
 Css
 JavaScript
-```
+
 
 ## Deployed Application Link URL
 ```
-(https://elhiloyasin.github.io/Coding-Quiz/)
-```
+(https://elhiloyasin.github.io/Coding-Quiz/
+
+
+
 
 
 
