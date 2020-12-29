@@ -6,10 +6,11 @@ Sometimes I get imposter syndrome. I start to second guess myself and ask myself
 ```
 
 ## Technologies
-``
+```
 Html
 Css
 JavaScript
+```
 
 
 ## Deployed Application Link URL
